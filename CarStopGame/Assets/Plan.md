@@ -27,11 +27,21 @@
 ## 개념
 
 ### Component
+- 유니티 오브젝트는 GameObject 라는 빈 상자에 설정 자료(컴포넌트)를 추가(적용)해서 기능을 늘릴 수 있습니다.
 
 ### Rigidbody
+- 물리적으로 움직이는 경우 
 
 ### AudioSource
+- 오디오 소스
 
 ### Transform : getcomponent 없이 즉시 부를 수 있음.(위에것들은 안됨)
+- 회전
 
+### 사용 예시
+```c#
+car.GetComponent<AudioSource>();
+car.transform..
+car.GetComponent<CarController>().Run();
+```
 
